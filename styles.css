@@ -1,0 +1,75 @@
+/* Banner Section CSS*/
+
+body {
+    font-family: 'Merriweather', serif;
+    /*background: linear-gradient(90deg, rgba(5, 44, 79, 0.9754026610644257) 0%, rgba(34, 108, 240, 1) 100%);*/
+}
+
+
+
+.banner-img {
+    position: relative;
+    text-align: center;
+    border-radius: 16px;
+}
+
+
+.banner-title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 20px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 50px;
+}
+
+.NewYear>img {
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+
+.NewYear-Text>h1 {
+    color: red;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.NewYear-Text>h4 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.NewYear-Text>h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
