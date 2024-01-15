@@ -1,7 +1,7 @@
 /* Banner Section CSS*/
 
 body {
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather';
     /*background: linear-gradient(90deg, rgba(5, 44, 79, 0.9754026610644257) 0%, rgba(34, 108, 240, 1) 100%);*/
 }
 
@@ -36,6 +36,10 @@ body {
     font-size: 50px;
 }
 
+.NewYear {
+    margin-bottom: 50px;
+}
+
 .NewYear>img {
     align-items: center;
     display: block;
@@ -50,8 +54,7 @@ body {
     text-align: center;
     font-family: Inter;
     font-size: 88px;
-    font-style: normal;
-    font-weight: 700;
+    font-weight: bolder;
 }
 
 .NewYear-Text>h4 {
@@ -72,4 +75,104 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+/* Mid Section CSS */
+
+.midSection {
+    position: relative;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.midSection-Title {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: #FFF;
+    text-align: left;
+    font-family: 'Merriweather';
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.midSection-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: #FFF;
+    text-align: left;
+    font-family: 'Merriweather';
+    font-size: 15px;
+}
+
+.midSection-img-1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+.midSection-img-2 {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    border: none;
+}
+
+.midSection-btn {
+    top: 85%;
+    left: 10%;
+    position: absolute;
+}
+
+/* Info Css*/
+
+.info {
+    text-align: center;
+    background-color: rgb(226, 186, 186);
+    height: 180px;
+    width: 800px;
+    background-position: center;
+    margin-left: 20%;
+}
+
+/* offer css*/
+
+.offer {}
+
+.offer>h4 {
+    color: red;
+}
+
+.offer>h6 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.offer-img1 {
+    border: 15px solid;
+    border-color: red;
+    border-radius: 463px;
+    padding: 3%;
+
+}
+
+.offer-img2 {}
+
+
+
+
+
+
+
+/* Footer CSS*/
+
+.footer {
+    background-color: #070211;
+    color: #FFF;
 }
