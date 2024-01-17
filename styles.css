@@ -167,6 +167,9 @@ body {
 
 .offer-img2 {}
 
+
+
+
 .offer2 {
     text-align: center;
 }
@@ -175,6 +178,7 @@ body {
     color: #070211;
     font-family: Inter;
     font-size: 15px;
+    margin-top: 0px;
 }
 
 .offer3>h2 {
@@ -183,14 +187,9 @@ body {
     font-family: Merriweather;
     font-size: 72px;
     font-style: normal;
+    margin-top: 0px;
 }
 
-.offer3>h2>p {
-    color: #070211;
-    font-family: Merriweather;
-    font-size: 72px;
-    font-style: normal;
-}
 
 .offer2>p {
     color: rgba(7, 2, 17, 0.60);
@@ -199,9 +198,74 @@ body {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px;
+    margin-top: 0px;
 }
 
+
+/* Image Design */
+
+.img-design {
+    align-items: center;
+    margin: 5px 5px 5px 5px;
+    height: 250px;
+    width: 1120px;
+    position: relative;
+}
+
+.img-design-box {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    z-index: 1;
+}
+
+.img-design-woman {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    z-index: 2;
+}
+
+.img-design-discount {
+    height: 100px;
+    width: 100px;
+}
+
+/* portfolio css */
+
+.portfolio {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.portfolio>h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.portfolio>h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.portfolio>p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+
+.portfolio-img>img:hover {
+   color: blue;
+}
 
 
 
